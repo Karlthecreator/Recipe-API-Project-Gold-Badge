@@ -1,0 +1,96 @@
+h1{
+    text-align: center;
+    color:white;
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
+    background-color:gold;
+    padding-right:0px;
+}
+
+body{
+    background-image: url("ibizafood.jpg");
+    background-position: cover;
+    
+}
+
+.label{
+    background-color:gold;
+    font-family: 'Permanent Marker', cursive;
+    font-size:40px;
+    width:200px;
+    height:60px;
+   
+}
+
+#search {
+    width: 400px;
+    height:55px;
+    text-align: center;  
+    font-family: 'Permanent Marker', cursive;
+    color:black;
+    font-size:30px; 
+
+
+}
+.class{
+    align-content: center;
+}
+.submit{
+    background-color: gold;
+    font-family: 'Permanent Marker', cursive;
+    font-size:30px;
+    width:150px;
+    height:60px;
+    
+
+
+}
+/* .searchbar{
+    background-color:gold;
+    font-family: 'Permanent Marker', cursive;
+} */
+.last{
+    background-color:gold;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    width:150px;
+    height:60px;
+}
+.next{
+    background-color:gold;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    width:150px;
+    height:60px;
+}
+/* .result{
+    display: flex;
+    justify-content: space-around;
+} */
+p{
+    text-align: center;
+    align-content: center;
+}
+nav{
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom:20px;
+}
+#food{
+    margin:0 auto;
+    font-family: 'Permanent Marker', cursive;
+    font-size:30px;
+    background-color: white;
+    width:60%;
+    
+}
+
+.foodImage {
+    height: 200px;
+    width: 200px;
+    padding-top:10px;
+    padding-left:10px;
+    border-radius:100px;
+    border: black solid 2px;
+}

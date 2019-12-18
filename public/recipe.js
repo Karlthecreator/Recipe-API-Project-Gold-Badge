@@ -52,9 +52,11 @@ if(recipes.length === 0){
         console.log(current)
         
         clearfix.setAttribute('class','clearfix');
+        image.setAttribute('class', 'foodImage');
+        link.setAttribute('class', 'foodName')
         
-        section.appendChild(link);
         section.appendChild(image);
+        section.appendChild(link);
         
         link.textContent = current.label
         link.href= current.url
