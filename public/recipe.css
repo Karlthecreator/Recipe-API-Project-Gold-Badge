@@ -9,8 +9,10 @@ h1{
 
 body{
     background-image: url("ibizafood.jpg");
-    background-position: cover;
-    
+    background-position-x:50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:black;
 }
 
 .label{
